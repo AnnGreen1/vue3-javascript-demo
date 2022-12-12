@@ -27,3 +27,26 @@ npm run dev
 ```sh
 npm run build
 ```
+--------------------------
+
+---------------------------
+# vite-vue3-javascript-demo创建流程   
+### 1、npm create
+```
+npm create vite@latest project-name
+```
+### 2、Select a framework
+选择预设模板Vue
+### 3、Select a variant
+选择JavaScript
+### 4、run
+```
+npm install
+npm run dev
+```
+### 5、router
+```
+npm install vue-router@4 -S
+```
+### 6、配置路由
+在src文件夹下，创建router文件夹，并在router文件下创建index.ts路由文件
