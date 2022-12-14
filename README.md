@@ -49,4 +49,4 @@ npm run dev
 npm install vue-router@4 -S
 ```
 ### 6、配置路由
-在src文件夹下，创建router文件夹，并在router文件下创建index.ts路由文件
+在src文件夹下，创建router文件夹，并在router文件下创建index.js路由文件
