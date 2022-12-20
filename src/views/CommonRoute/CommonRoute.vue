@@ -1,6 +1,8 @@
 <template>
     <div>
-        {{ cr }}
+        <div class="common-style">
+            {{ cr }}
+        </div>
     </div>
 </template>
 
