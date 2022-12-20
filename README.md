@@ -48,5 +48,11 @@ npm run dev
 ```
 npm install vue-router@4 -S
 ```
-### 6、配置路由
-在src文件夹下，创建router文件夹，并在router文件下创建index.js路由文件
+### 6、routes
+在src文件夹下，创建router文件夹，并在router文件下创建index.js路由文件；再新建routes文件夹，分文件路由。
+
+### 7、Sass
+安装Sass，新建公共样式style文件夹，把公共样式文件引入main.js
+
+### 8、axios
+安装axios，新建utils文件夹，新建request.js文件；新建api文件夹，引入request.js，写请求即可；
