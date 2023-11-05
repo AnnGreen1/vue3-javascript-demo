@@ -1,6 +1,9 @@
 import { createRouter, createWebHistory } from "vue-router";
 import HomeView from "../views/HomeView.vue";
 
+
+import Basic from "./routes/Basic";
+import Form from "./routes/Form";
 import commonroute from "./routes/commonroute";
 import dev from "./routes/dev";
 
@@ -31,6 +34,8 @@ const router = createRouter({
     },
     ...commonroute,
     ...dev,
+    ...Basic,
+    ...Form
   ],
 });
 
