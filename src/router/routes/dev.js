@@ -24,5 +24,13 @@ const commonroute = [
     path: '/test/:productName',
     component: () => import("@/views/Dev/test/AboveNumber.vue")
   },
+  {
+    path: '/websocket',
+    component: () => import("@/views/Dev/Websocket/Index.vue")
+  },
+  {
+    path: '/SendUserMediaWebsocket',
+    component: () => import("@/views/Dev/Websocket/SendUserMediaWebsocket.vue")
+  },
 ];
 export default commonroute;
