@@ -1,9 +1,9 @@
 const Input = [
-    {
-        path: "/Form/Input/index",
-        name: "Form-Input-index",
-        component: () => import("@/views/Form/Input/index.vue")
-    },
+    // {
+    //     path: "/Form/Input/index",
+    //     name: "Form-Input-index",
+    //     component: () => import("@/views/Form/Input/index.vue")
+    // },
     {
         path: "/Form/Input/ModelValue",
         name: "Form-Input-ModelValue",
