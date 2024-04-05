@@ -25,12 +25,24 @@ const commonroute = [
     component: () => import("@/views/Dev/test/AboveNumber.vue")
   },
   {
-    path: '/websocket',
+    path: '/dev/websocket',
     component: () => import("@/views/Dev/Websocket/Index.vue")
   },
   {
-    path: '/SendUserMediaWebsocket',
+    path: '/dev/websocket/SendUserMediaWebsocket',
     component: () => import("@/views/Dev/Websocket/SendUserMediaWebsocket.vue")
+  },
+  {
+    path: '/dev/websocket/SendMediaWebsocket',
+    component: () => import("@/views/Dev/Websocket/SendMediaWebsocket.vue")
+  },
+  {
+    path: '/dev/print',
+    component: () => import("@/views/Dev/print.vue")
+  },
+  {
+    path: '/dev/print2',
+    component: () => import("@/views/Dev/html2pdf/Index.vue")
   },
 ];
 export default commonroute;
