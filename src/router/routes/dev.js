@@ -9,11 +9,5 @@ const commonroute = [
     name: "dev-print",
     component: () => import("@/views/Dev/print.vue"),
   }
-  ,
-  {
-    path: "/dev/printfrom",
-    name: "dev-printfrom",
-    component: () => import("@/views/Dev/form.vue"),
-  }
 ];
 export default commonroute;
