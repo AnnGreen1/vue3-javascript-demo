@@ -5,24 +5,24 @@ const commonroute = [
     component: () => import("@/views/CommonRoute/CommonRoute.vue"),
   },
   {
-    path: "/dev/SearchMatchA",
-    name: "dev-SearchMatchA",
-    component: () => import("@/views/Dev/SearchMatchA.vue"),
+    path: "/dev/SearchMatch/SearchMatchA",
+    name: "dev-SearchMatch-SearchMatchA",
+    component: () => import("@/views/Dev/SearchMatch/SearchMatchA.vue"),
   },
   {
-    path: "/dev/SearchMatchB",
-    name: "dev-SearchMatchB",
-    component: () => import("@/views/Dev/SearchMatchB.vue"),
+    path: "/dev/SearchMatch/SearchMatchB",
+    name: "dev-SearchMatch-SearchMatchB",
+    component: () => import("@/views/Dev/SearchMatch/SearchMatchB.vue"),
   },
   // /:orderId -> 仅匹配数字
   {
     path: '/test/:orderId(\\d+)',
-    component: () => import("@/views/Dev/test/OnlyNumber.vue")
+    component: () => import("@/views/Dev/RouteMatch/OnlyNumber.vue")
   },
   // /:productName -> 匹配其他任何内容
   {
     path: '/test/:productName',
-    component: () => import("@/views/Dev/test/AboveNumber.vue")
+    component: () => import("@/views/Dev/RouteMatch/AboveNumber.vue")
   },
   {
     path: '/dev/websocket',
@@ -43,6 +43,14 @@ const commonroute = [
   {
     path: '/dev/print2',
     component: () => import("@/views/Dev/html2pdf/Index.vue")
+  },
+  {
+    path: '/dev/PdfImg',
+    component: () => import("@/views/Dev/PdfImg.vue")
+  },
+  {
+    path: '/dev/Recorder',
+    component: () => import("@/views/Dev/Recorder/Index.vue")
   },
 ];
 export default commonroute;
