@@ -53,8 +53,24 @@ const commonroute = [
     component: () => import("@/views/Dev/Recorder/Index.vue")
   },
   {
+    path: '/dev/RecorderMyself/demo',
+    component: () => import("@/views/Dev/RecorderMyself/demo.vue")
+  },
+  {
     path: '/dev/Recorder2',
     component: () => import("@/views/Dev/Recorder2/Record.vue")
+  },
+  {
+    path: '/dev/menu',
+    component: () => import("@/views/Dev/Menu/Index.vue")
+  },
+  {
+    path: '/dev/menu2',
+    component: () => import("@/views/Dev/Menu/demo.vue")
+  },
+  {
+    path: '/dev/menu3',
+    component: () => import("@/views/Dev/Menu/UsePopover.vue")
   },
 ];
 export default commonroute;
