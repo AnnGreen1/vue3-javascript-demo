@@ -56,6 +56,7 @@ const commonroute = [
     path: '/dev/RecorderMyself/demo',
     component: () => import("@/views/Dev/RecorderMyself/demo.vue")
   },
+  // 仅仅一个录音器
   {
     path: '/dev/Recorder2',
     component: () => import("@/views/Dev/Recorder2/Record.vue")
