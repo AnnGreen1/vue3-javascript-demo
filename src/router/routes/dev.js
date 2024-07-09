@@ -73,5 +73,14 @@ const commonroute = [
     path: '/dev/menu3',
     component: () => import("@/views/Dev/Menu/UsePopover.vue")
   },
+  {
+    path: '/dev/setInterval',
+    component: () => import("@/views/Dev/SetInterval.vue")
+  },
+  {
+    path: "/dev/usescroll",
+    name: "dev-usescroll",
+    component: () => import("../../views/Dev/UseScroll.vue"),
+  },
 ];
 export default commonroute;
